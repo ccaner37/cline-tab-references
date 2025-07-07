@@ -1,0 +1,36 @@
+{
+  "name": "cline-tab-references",
+  "displayName": "Cline Tab References",
+  "description": "Copy all open tab paths formatted for Cline chat references",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:cline-tab-references.copyTabPaths"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "cline-tab-references.copyTabPaths",
+        "title": "Copy Tab Paths for Cline"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "cline-tab-references.copyTabPaths",
+        "key": "ctrl+shift+c",
+        "mac": "cmd+shift+c"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  }
+}
