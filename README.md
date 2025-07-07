@@ -1,6 +1,8 @@
 # cline-tab-references
 Copy all open tabs as file reference to clipboard for CLine.
 
+It's nice to fill the context with open tabs easily.
+
 ### Installation:
 drop "cline-tab-references" to
 - Windows ```%USERPROFILE%\.vscode\extensions```
