@@ -15,3 +15,6 @@ do ```npm install```
 CTRL + Shift + P -> Copy Tab Paths for Cline
 
 or shortcut: CTRL + Shift + C
+
+#### Preview
+![](Code_SnxqdwlqMx.gif)
